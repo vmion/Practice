@@ -9,19 +9,27 @@ public class Char_Controller : MonoBehaviour
     float jumpPower;
     float moveSpeed;
     private bool IsJumping;
+    float rotateSpeed;
+    Vector3 rotation;
 
     void Start()
     {
         //리지드바디 컴포넌트를 받아옴
         rb = GetComponent<Rigidbody>();
         IsJumping = false;
+        
     }
 
     void Update()
     {
+        float x = Input.GetAxis("Mouse X");
+        
         jumpPower = 5f;
         moveSpeed = 2f;
         dir = Vector3.zero;
+        rotateSpeed = 80f;
+        rotation = transform.localEulerAngles;
+
         //WASD로 기본이동
         if (Input.GetKey(KeyCode.A))
         {
@@ -53,6 +61,9 @@ public class Char_Controller : MonoBehaviour
         Vector3 tmp = transform.position;
         tmp += dir * Time.deltaTime * moveSpeed;
         transform.position = tmp;
+        rotation.y += x * Time.deltaTime * rotateSpeed;
+        
+        transform.localEulerAngles = rotation;
         Jump();
     }
    
