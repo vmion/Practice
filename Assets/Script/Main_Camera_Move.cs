@@ -16,7 +16,7 @@ public class Main_Camera_Move : MonoBehaviour
     {
         //캐릭터의 크기 설정을 통해 카메라 시점 조정
         Player_Height = new Vector3(0, 1.1f, 0f);
-        Player_Side = new Vector3(-0.5f, 0f, 0f);
+        Player_Side = new Vector3(-1f, 0f, 0f);
     }
         
     void Update()
