@@ -4,39 +4,52 @@ using UnityEngine;
 
 public class Char_Controller : MonoBehaviour
 {
-    private Rigidbody rb;
-    Vector3 end;
+    Rigidbody rb;    
     float jumpPower;
     float moveSpeed;
-    private int IsJumping;
-    float rotateSpeed;       
-
+    int IsJumping;
+    float rotateSpeed;
+    public Transform Player;
+    public GameObject board;
+    public GameObject itembox;
     void Start()
     {        
         //리지드바디 컴포넌트를 받아옴
         rb = GetComponent<Rigidbody>();
-        IsJumping = 0;
-        end = transform.position;
-        jumpPower = 7f;
+        IsJumping = 0;        
+        jumpPower = 3f;
         moveSpeed = 2f;
-        rotateSpeed = 50f;
-       
+        rotateSpeed = 50f;       
     }
     private void FixedUpdate()
     {       
         Walk();
         Jump();
-        Run();
-                
-        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(transform.position), Time.deltaTime * rotateSpeed);        
+        Run();                
+        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(transform.position), Time.deltaTime * rotateSpeed);    
         
     }
 
     void Update()
     {
-       
+        if(itembox == null)
+        {
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                board.SetActive(true);
+            }
+        } 
+        else
+        {
+            return;
+        }
+        if (board.activeSelf == true)
+        {
+            moveSpeed = 4f;
+            jumpPower = 5f;
+        }
     }
-    void Walk()
+    public void Walk()
     {        
         //WASD로 기본이동
         if (Input.GetKey(KeyCode.A))
@@ -56,24 +69,31 @@ public class Char_Controller : MonoBehaviour
             transform.position += Vector3.back * moveSpeed * Time.deltaTime;
         }
     }
-    void Run()
+    public void Run()
     {
-        //LeftShift를 누르는 동안 달리기
+        
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W))
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                moveSpeed = 3.5f;
-                jumpPower = 15f;
+                if (board.activeSelf == true)
+                {
+                    rb.AddForce(Vector3.forward * 1.5f * Time.deltaTime, ForceMode.Impulse);
+                }
+                else
+                {
+                    moveSpeed = 3.5f;
+                    jumpPower = 5f;
+                }                                
             }
             else
             {
                 moveSpeed = 2f;
-                jumpPower = 7f;
+                jumpPower = 3f;
             }
         }                  
     }
-    void Jump()
+    public void Jump()
     {
         //스페이스바를 누를시 점프
         if (Input.GetKeyDown(KeyCode.Space))
@@ -92,7 +112,7 @@ public class Char_Controller : MonoBehaviour
         }
     }
     //바닥과 충돌시 IsJumping이 0으로 바뀌면서 점프가능
-    private void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.CompareTag("Terrain"))
         {

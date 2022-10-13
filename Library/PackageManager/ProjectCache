@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637995962507324862
+      ticks: 638012303414194014
     m_Hash: 484050335
   m_LockFileStatus:
     m_FilePath: Z:/github/Practice/Packages/packages-lock.json
@@ -13,14 +13,14 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637995962507324862
+      ticks: 638012303414194014
     m_Hash: 3190257012
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: Z:/github/Practice/Packages
-m_EditorVersion: 2021.3.10f1 (1c7d0df0160b)
+m_EditorVersion: 2021.3.11f1 (0a5ca18544bf)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.17.2
   testable: 0
