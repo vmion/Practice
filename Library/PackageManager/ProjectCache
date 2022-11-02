@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638029584081772081
-    m_Hash: 484050335
+      ticks: 638029623040885506
+    m_Hash: 1900136343
   m_LockFileStatus:
     m_FilePath: Z:/github/Practice/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638029611224672142
-    m_Hash: 446903069
+      ticks: 638029623040905451
+    m_Hash: 450411855
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -388,6 +388,75 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.5
+    nextVersion: 
+- packageId: com.unity.polybrush@1.1.3
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.3
+  source: 1
+  resolvedPath: Z:\github\Practice\Library\PackageCache\com.unity.polybrush@1.1.3
+  assetPath: Packages/com.unity.polybrush
+  name: com.unity.polybrush
+  displayName: Polybrush
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Mesh painting, sculpting, and geo-scattering tool for Unity.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.13
+    - 1.0.0-preview.16
+    - 1.0.0-preview.17
+    - 1.0.0
+    - 1.0.1-preview.1
+    - 1.0.1-preview.2
+    - 1.0.1
+    - 1.0.2-preview.1
+    - 1.0.2-preview.4
+    - 1.0.2
+    - 1.1.0-pre.1
+    - 1.1.2
+    - 1.1.3
+    compatible:
+    - 1.1.2
+    - 1.1.3
+    verified: 1.1.3
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - modeling
+  - sculpting
+  - push
+  - clay
+  - terrain
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637838195900000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/polybrush.git
+    revision: fe3755cd26ca8200a4843921343f3e957db611f8
+    path: 
+  unityLifecycle:
+    version: 1.1.2
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
@@ -2664,6 +2733,63 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.6
+    nextVersion: 
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: Z:\github\Practice\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 1.0.3
     nextVersion: 
 - packageId: com.unity.services.core@1.4.3
   testable: 0

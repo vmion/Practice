@@ -15,7 +15,7 @@ Z:/github/Practice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51671
+53558
 Successfully changed project path to: Z:/github/Practice
 Z:/github/Practice
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ Z:/github/Practice
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 24.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path Z:/unity/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -62,79 +62,79 @@ Initialize mono
 Mono path[0] = 'Z:/unity/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'Z:/unity/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'Z:/unity/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: Z:/unity/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: Z:/unity/2021.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: Z:/unity/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002456 seconds.
+Registered in 0.002007 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 24.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.509 seconds
+- Completed reload, in  0.477 seconds
 Domain Reload Profiling:
-	ReloadAssembly (510ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (477ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (370ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (336ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (210ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (182ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (24ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001523 seconds.
+Registered in 0.001329 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
+- Completed reload, in  0.778 seconds
 Domain Reload Profiling:
-	ReloadAssembly (858ms)
-		BeginReloadAssembly (189ms)
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (120ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (506ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (249ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (240ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1691 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (49.6 KB). Loaded Objects now: 2164.
-Memory consumption went from 73.5 MB to 73.5 MB.
-Total: 2.461300 ms (FindLiveObjects: 0.149800 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.162300 ms  DeleteObjects: 0.092100 ms)
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (130.0 KB). Loaded Objects now: 2273.
+Memory consumption went from 77.8 MB to 77.6 MB.
+Total: 2.364400 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.008900 ms  DeleteObjects: 0.104600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,31 +162,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7670.970411 seconds.
-  path: Assets/Stylize Rock Texture/Textures/Vol_23_1_Base_Color.png
-  artifactKey: Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylize Rock Texture/Textures/Vol_23_1_Base_Color.png using Guid(e4c6a01faea259f46984b293add3df4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005cf9cd17e7bb5e5b58fc11219be0d9') in 0.053364 seconds 
+  Time since last request: 12446.188178 seconds.
+  path: Assets/Polybrush Data/Prefab Palette
+  artifactKey: Guid(7d126bd21a5cfb74387463e1611c90be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polybrush Data/Prefab Palette using Guid(7d126bd21a5cfb74387463e1611c90be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc7e1afaf41c2d7096d888169a802a0') in 0.003459 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.802794 seconds.
-  path: Assets/Stylize Rock Texture/Textures/Vol_23_1_Height.png
-  artifactKey: Guid(d994a0254a5f6f145a8735ec2b6c5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylize Rock Texture/Textures/Vol_23_1_Height.png using Guid(d994a0254a5f6f145a8735ec2b6c5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4070efe1a3a3e0191e4593f556af6b1') in 0.007291 seconds 
+  Time since last request: 0.008679 seconds.
+  path: Assets/Resources/Texture
+  artifactKey: Guid(20640035f00f55f48a95d5a2d8876483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Texture using Guid(20640035f00f55f48a95d5a2d8876483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197cc48de26cdeaaa1fd4fe7a74e7966') in 0.000525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.367936 seconds.
-  path: Assets/Stylize Rock Texture/Textures/Vol_23_1_Ambient_Occlusion.png
-  artifactKey: Guid(c7bb39eaf298b0f4d8f6eac79843b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylize Rock Texture/Textures/Vol_23_1_Ambient_Occlusion.png using Guid(c7bb39eaf298b0f4d8f6eac79843b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b575ea811e5b82538e9fbc40fa27e') in 0.005394 seconds 
+  Time since last request: 0.001171 seconds.
+  path: Assets/Polybrush Data/Color Palette
+  artifactKey: Guid(11e49672178f5034189f2c26f1da7b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polybrush Data/Color Palette using Guid(11e49672178f5034189f2c26f1da7b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e344f9100ec1aa36b191ad75440e42') in 0.000467 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.992340 seconds.
-  path: Assets/Stylize Rock Texture/Textures/Vol_23_1_Normal.png
-  artifactKey: Guid(8c76dad3d59e548469bd252a15004d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylize Rock Texture/Textures/Vol_23_1_Normal.png using Guid(8c76dad3d59e548469bd252a15004d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851c9e8d59a2d348fcd15764379f853b') in 0.033181 seconds 
+  Time since last request: 0.001578 seconds.
+  path: Assets/Scenes/Char_Controller.unity
+  artifactKey: Guid(268e410eb85d57247a573962684d314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Char_Controller.unity using Guid(268e410eb85d57247a573962684d314d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2e531bc02708243c8dc5135b4ec09a') in 0.000464 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.565190 seconds.
-  path: Assets/Stylize Rock Texture/Textures/Vol_23_1_Roughness.png
-  artifactKey: Guid(4f9880255d5004a44a5cc54c645af013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylize Rock Texture/Textures/Vol_23_1_Roughness.png using Guid(4f9880255d5004a44a5cc54c645af013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207ab17db7953d10d8f0b483f437b729') in 0.007622 seconds 
+  Time since last request: 0.005502 seconds.
+  path: Assets/Polybrush Data/Brush Settings/BrushSettings-Default.asset
+  artifactKey: Guid(273543837d1a21a4dbb24e269ad7ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polybrush Data/Brush Settings/BrushSettings-Default.asset using Guid(273543837d1a21a4dbb24e269ad7ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51be415ba0b656aaa2434eacbce2a031') in 0.015920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001146 seconds.
+  path: Assets/Resources/Material/MultiTerrainMaterial.mat
+  artifactKey: Guid(55c939bfa079f4d40966944a610c222c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Material/MultiTerrainMaterial.mat using Guid(55c939bfa079f4d40966944a610c222c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c2f4e38317cb1ac88a66985a0f10ad') in 0.076091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008907 seconds.
+  path: Assets/Polybrush Data/Color Palette/ColorPalette-Default.asset
+  artifactKey: Guid(cac1bb3e6565f204da1d2733e6c13514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polybrush Data/Color Palette/ColorPalette-Default.asset using Guid(cac1bb3e6565f204da1d2733e6c13514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954035def8b5432856726612d0ad5083') in 0.001468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Polybrush Data/Brush Settings
+  artifactKey: Guid(5a9ccd981eb9bea498c3740fe194c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polybrush Data/Brush Settings using Guid(5a9ccd981eb9bea498c3740fe194c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c791760f00f7f3f5a893482c187a35') in 0.000441 seconds 
